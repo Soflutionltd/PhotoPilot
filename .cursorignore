@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+target/
+src-tauri/target/
+
+# Build outputs
+dist/
+build/
+out/
+*.wasm
+pkg/
+
+# Cache
+.cache/
+.vite/
+.parcel-cache/
+.turbo/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Large data files
+*.csv
+*.sqlite
+*.db
+*.dump
+data/models/*.onnx
+data/models/*.bin
+
+# Tauri-specific generated
+src-tauri/gen/
+src-tauri/icons/full_res*
+src-tauri/icons/*.png
+
+# Tests / snapshots
+coverage/
+__snapshots__/
+
+# Lockfiles (heavy and not useful for context)
+package-lock.json
+Cargo.lock
