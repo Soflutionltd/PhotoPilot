@@ -23,7 +23,7 @@
     "@uiw/color-convert": "^2.10.1",
     "@uiw/react-color-wheel": "^2.10.1",
     "clsx": "^2.1.1",
-    "framer-motion": "^12.38.0",
+    "framer-motion": "^13.4.0",
     "konva": "^10.3.0",
     "lodash.debounce": "^4.0.8",
     "lodash.throttle": "^4.1.1",
